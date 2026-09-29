@@ -21,14 +21,14 @@ A number here that the census does not have is a suite nobody has vendored yet, 
 
 ## The run
 
-* **Taken** — 2026-09-28 13:19 UTC
+* **Taken** — 2026-09-29 13:10 UTC
 * **Jint** — [`cd4037d8b9f7`](https://github.com/sebastienros/jint/commit/cd4037d8b9f751d42ab98000c8f0ce9d4fe45726)
 * **web-platform-tests** — [`6c7127bdd9f2`](https://github.com/web-platform-tests/wpt/commit/6c7127bdd9f2cc6a3668fd9791757843e09d5a9e)
-* **Wall time** — 142 min
-* **Workflow run** — [log and `wptreport.json`](https://github.com/HermanusMuellerEU/jint/actions/runs/36412481266)
+* **Wall time** — 145 min
+* **Workflow run** — [log and `wptreport.json`](https://github.com/HermanusMuellerEU/jint/actions/runs/36557083506)
 * **Product** — `jint_browser`
 
-**131559 of 144582 subtests pass** (91.0%), over 3316 files.
+**131957 of 144607 subtests pass** (91.3%), over 3316 files.
 
 ## By suite
 
@@ -36,15 +36,15 @@ A number here that the census does not have is a suite nobody has vendored yet, 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | FileAPI | 110 | 47 | 44 | 12 | 7 | 768 | 698 | 58 | 12 | 90.9% |
 | custom-elements | 187 | 136 | 29 | 17 | 5 | 3740 | 2920 | 713 | 107 | 78.1% |
-| dom | 701 | 455 | 54 | 81 | 111 | 61737 | 57220 | 3190 | 1327 | 92.7% |
-| fetch/api | 502 | 128 | 256 | 6 | 112 | 1637 | 1205 | 427 | 5 | 73.6% |
+| dom | 701 | 456 | 53 | 81 | 111 | 61762 | 57614 | 2821 | 1327 | 93.3% |
+| fetch/api | 502 | 128 | 256 | 6 | 112 | 1637 | 1207 | 425 | 5 | 73.7% |
 | html/browsers/history | 136 | 90 | 4 | 40 | 2 | 396 | 94 | 229 | 73 | 23.7% |
 | html/dom | 246 | 208 | 4 | 28 | 6 | 60684 | 58682 | 1966 | 36 | 96.7% |
 | html/semantics/scripting-1 | 577 | 400 | 73 | 98 | 6 | 2875 | 1308 | 1312 | 255 | 45.5% |
 | html/webappapis | 353 | 250 | 35 | 49 | 19 | 2579 | 1658 | 836 | 85 | 64.3% |
 | url | 77 | 42 | 28 | 7 | 0 | 8691 | 6802 | 1882 | 7 | 78.3% |
-| xhr | 427 | 292 | 118 | 16 | 1 | 1475 | 972 | 386 | 117 | 65.9% |
-| **total** | 3316 | 2048 | 645 | 354 | 269 | 144582 | 131559 | 10999 | 2024 | 91.0% |
+| xhr | 427 | 292 | 118 | 16 | 1 | 1475 | 974 | 384 | 117 | 66.0% |
+| **total** | 3316 | 2049 | 644 | 354 | 269 | 144607 | 131957 | 10626 | 2024 | 91.3% |
 
 ## By what the case is
 
@@ -56,9 +56,9 @@ that the totals above cannot be read as a verdict on the engine's DOM.
 | Case | Files | OK | Error | Timeout | Skip | Subtests | Pass | Fail | Other | Pass rate |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | dedicated worker | 346 | 0 | 343 | 0 | 3 | 0 | 0 | 0 | 0 | — |
-| document | 2279 | 1653 | 142 | 326 | 158 | 132119 | 121464 | 8753 | 1902 | 91.9% |
+| document | 2279 | 1654 | 141 | 326 | 158 | 132144 | 121860 | 8382 | 1902 | 92.2% |
 | service worker | 100 | 0 | 0 | 0 | 100 | 0 | 0 | 0 | 0 | — |
 | shared worker | 122 | 0 | 120 | 0 | 2 | 0 | 0 | 0 | 0 | — |
-| window (generated) | 469 | 395 | 40 | 28 | 6 | 12463 | 10095 | 2246 | 122 | 81.0% |
-| **total** | 3316 | 2048 | 645 | 354 | 269 | 144582 | 131559 | 10999 | 2024 | 91.0% |
+| window (generated) | 469 | 395 | 40 | 28 | 6 | 12463 | 10097 | 2244 | 122 | 81.0% |
+| **total** | 3316 | 2049 | 644 | 354 | 269 | 144607 | 131957 | 10626 | 2024 | 91.3% |
 
